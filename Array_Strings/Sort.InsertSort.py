@@ -1,6 +1,7 @@
+
 from array import array
 from encodings.punycode import insertion_sort 
-arr = array('i',[3,5,6,78,3,34,2,4])
+    arr = array('i',[3,5,6,78,3,34,2,4])
 def insertion_sort(arr): 
     for i in range(0,len(arr)): 
         key = arr[i]
