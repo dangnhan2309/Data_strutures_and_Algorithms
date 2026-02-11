@@ -1,7 +1,7 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        for values,index in emerate(strs):
-        	print
+        for values,index in emerate(strs).items:
+        	print(f"{values}")
 
 
  if __name__=="__main__":
